@@ -1,0 +1,128 @@
+#maindiv
+{
+    height:920px;
+    width:100%;
+    border:1px solid grey;
+    background-color: palegreen;
+} 
+body
+{ 
+    border: 2px solid grey;
+    background-color: black;
+}
+#div1, #div2
+{
+    float:left;
+    width:50%;
+    height:500px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+#div2
+{
+    font-weight: bolder;
+    font-size:50px;
+    text-align: justify;
+    color: black;
+    text-shadow: 3px 3px palevioletred;
+}
+.txtalign
+{
+    margin-top:150px;
+    font-family: cursive;
+}
+img
+{
+    height:350px;
+    width:500px;
+    margin: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 10px rgb(76, 75, 75);
+}
+img:hover
+{
+    transform: scale(1.05);
+}
+#header
+{
+    width:100%;
+    height:50px;
+    background-image: url('images/8.png');
+    color:white;
+    font-weight:bolder;
+    font-size:30px;
+    text-indent: 25px;
+}
+input
+{
+    height:50px;
+    width:200px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: cursive;
+    background-color: palegreen;
+    color:black;
+    text-align: center;
+    margin-left:5px;
+}
+input:hover
+{
+    transform: scale(1.05);
+    transition: 0.5s;
+    font-size:35px;
+    background-color: palevioletred;
+    color: white;
+}
+#div3
+{
+    float:left;
+    height:250px;
+    width:100%;
+    border-bottom: 2px solid black;
+}
+#div3a1
+{
+    font-size:25px;
+    margin-left:20px;
+    font-weight:bolder;
+}
+#div3a2
+{
+    font-size:20px;
+    text-align:justify;
+    margin-left:20px;
+    margin-right:20px;
+}
+#div4
+{
+    float:left;
+    height:165px;
+    width:100%;
+}
+#div4a, #div4b
+{
+    
+    float:left;
+    font-size: 20px;
+    height: 150px;
+    width: 33%;
+    text-align:center;
+    border-right:2px solid black;
+    padding:5px;
+}
+#div4ac
+{
+    float:left;
+    font-size: 20px;
+    height: 150px;
+    width: 33%;
+    text-align:center;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
