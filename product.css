@@ -1,0 +1,132 @@
+#maindiv1, #maindiv2
+{
+    height:40px;
+    width:100%;
+    border:1px solid grey;
+    background-color: palegreen;
+}
+#div1, #div2, #div3, #div4
+{
+    float:left;
+    height:40px;
+    width:17%;
+    margin-left: 35px;
+    margin-right: 80px;
+}
+#div5, #div6, #div7, #div11, #div12, #div13
+{
+    float:left;
+    margin-top:40px;
+    margin-left:60px;
+    margin-right:60px;
+    width:25%;
+    height:250px;
+    border-top:2px solid grey;
+    border-left:2px solid grey;
+    border-right:2px solid grey;
+    border-style: groove
+}   
+#div8, #div9, #div10, #div14, #div15, #div16
+{
+    float:left;
+    text-align:center;
+    margin-left:60px;
+    margin-right:60px;
+    border-bottom:2px solid grey;
+    border-left:2px solid grey;
+    border-right:2px solid grey;
+    width:25%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    background-color: lightblue;
+}
+#maindiv3, #maindiv4
+{
+    height:220px;
+    width:100%;
+    background-color: palegreen;
+}
+body
+{
+    border: 4px solid grey;
+    background-color: black;
+}
+img
+{
+    height:250px;
+    width:373px;
+}
+#maindiv5, #maindiv6
+{
+    height:210px;
+    width:100%;
+    background-color: palegreen;
+}
+#div17, #div18
+{
+    float:left;
+    font-size: 20px;
+    height: 150px;
+    width: 33%;
+    text-align:center;
+    border-right: 4px solid grey;
+    padding:10px;
+}
+#maindiv7
+{
+    height: 170px;
+    width:100%;
+    background-color: palegreen;
+    color:black;
+}
+a
+{
+    text-decoration: none;
+    color:black;
+}
+#maindiv3
+{
+    border-top: 1px solid grey;
+}
+input
+{
+    height: 40px;
+    width: 250px;
+    font-weight:bold;
+    text-align:center;
+    border:0px;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+}
+#maindiv2
+{
+    background-color: grey;
+}
+#div19
+{
+    float:left;
+    font-size: 20px;
+    height: 150px;
+    width: 33%;
+    text-align:center;
+}
+input:hover
+{
+    transition: 1.5s;
+    background-color: palevioletred;
+    font-size:23px;
+    color: white;
+    border:5px groove palegreen;
+    font-family: cursive;
+}
+img:hover
+{
+    transform: scale(1.05);
+    box-shadow: 10px 10px rgb(85, 84, 84);
+    margin-bottom: 200px;
+}
+#maindiv4, #maindiv6
+{
+    border-bottom: 2px solid grey;
+}
